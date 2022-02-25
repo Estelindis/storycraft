@@ -1,4 +1,23 @@
+/* Global style */
+
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    border:0;
 }
+
+body {
+    background-color: #222222;
+    color: #d4d4d4;
+}
+
+/* Background image */
+
+#background {
+    background: url('../images/bk01-grassland-city.webp') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
