@@ -1,16 +1,19 @@
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fondamento&display=swap');
+
 /* Global style */
 
 *, *::before, *::after {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Dosis', sans-serif;
     margin:0;
     padding:0;
     border:0;
-}
-
-body {
+    box-sizing: border-box;
     background-color: #222222;
-    color: #d4d4d4;
+    color: #d0d0d0;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Background image */
@@ -20,4 +23,29 @@ body {
     background-size: cover;
     height: 100vh;
   }
+
+/* Central interactive area  */
+
+h1 {
+    font-family: 'Fondamento', cursive;
+}
+
+#story-box {
+    height: 90vh;
+    width: 800px;
+    max-width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#story-box * {
+    padding: 20px;
+    text-align: justify;
+}
   
+.choice:hover {
+    background-color: #3d3d3d;
+}
+
