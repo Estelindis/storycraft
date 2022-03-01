@@ -12,8 +12,7 @@
     box-sizing: border-box;
     background-color: #222222;
     color: #d0d0d0;
-    justify-content: center;
-    align-items: center;
+    text-align: justify;
 }
 
 /* Background image */
@@ -40,9 +39,8 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-#story-box * {
+#navbar, #narrative, .choice {
     padding: 20px;
-    text-align: justify;
 }
   
 .choice:hover {
