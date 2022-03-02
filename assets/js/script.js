@@ -1,24 +1,36 @@
-const storyNode = document.getElementById('story');
-const choiceArray = document.getElementById('choice-box');
+let storyElement = document.getElementById('story');
+let choiceElements = document.getElementById('choice-box');
 
 function newStory() {
-    showStoryNode('story03node01');
+    showStoryNode(1);
 }
 
 function showStoryNode(storyNodeList) {
-    const storyNode = storyNodes.find(storyNode => storyNode.id === storyNodeIndex)
+    let storyNode = storyNodes.find(storyNode => storyNode.id === storyNodeList);
+    storyElement.innerText = storyNode.story;
+    while (choiceElements.firstChild) {
+        choiceElements.removeChild(choiceElements.firstChild);
+    }
 
+    storyNode.choices.forEach(choice =>{
+            let choiceParagraph = document.createElement('p');
+            choiceParagraph.innerText = choice.choice;
+            choiceParagraph.classList.add('choice');
+            choiceParagraph.addEventListener('click', () => makeChoice(choice));
+            choiceElements.appendChild(choiceParagraph);       
+    });
 }
 
 function makeChoice(choice) {
-
+    let nextStory = choice.nextStoryNode;
+    showStoryNode(nextStory);
 }
 
 const storyNodes = [
     {
         id: 1,
         ref: 'story03node01',
-        story: 'Some people go through life swimming upstream.  Fighting the force of the current.  Not me.  I let it carry me along.  I can\'t say the river\'s always taken me where I wanted, but it never tired me out.  If I haven\'t been happy, at least I\'ve been content.  Lately, though, something\'s different.  I see glimpses of strange things in the corner of my eye.  Whenever I turn to look at them, they\'re gone.  Something just isn\'t right.',
+        story: 'Some people go through life swimming upstream.  Fighting the force of the current.  Not me.  I let it carry me along.  I can\'t say the river\'s always taken me where I wanted, but it never tired me out.  If I haven\'t been happy, at least I\'ve been content.  Lately, though, something\'s different.  I see glimpses of strange things in the corner of my eye.  Whenever look at them, they vanish.  Something just isn\'t right.',
         choices: [
             {
                 choice: 'Why look at all?  I ignore the strangeness.',
@@ -27,8 +39,8 @@ const storyNodes = [
             },
             {
                 choice: 'Carefully, I examine the odd phenomena.',
-                nextStoryNode: 'story03node02b',
-                nextRef: 3
+                nextStoryNode: 3, 
+                nextRef: 'story03node02b'
             }
         ]
     },
