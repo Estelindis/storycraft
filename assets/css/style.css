@@ -26,10 +26,10 @@
 /* Central interactive area  */
 
 h1 {
-    font-family: 'Fondamento', cursive;
+    font-family: 'Fondamento', 'Goudy Old Style', serif;
 }
 
-#story-box {
+#game-box {
     height: 90vh;
     width: 800px;
     max-width: 80%;
@@ -39,7 +39,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-#navbar, #narrative, .choice {
+#navbar, #story, .choice {
     padding: 20px;
 }
   
