@@ -184,6 +184,68 @@ const storyNodes = [
                 nextStoryNode: 11
             }
         ]
+    },
+    {
+        id: 11,
+        story: 'I put my fingers in my ears, but it\'s no use.  The song isn\'t coming from beyond.  It\'s within me.',
+        choices: [
+            {
+                choice: 'I try to ignore it nonetheless.',
+                nextStoryNode: 12
+            },
+            {
+                choice: 'I listen more.',
+                nextStoryNode: 18
+            }
+        ]
+    },
+    {
+        id: 12,
+        story: 'The song exists.  I hear it almost always.  But I don\'t have to listen.  I push it to the background and move on with my life.  It\'s not always easy.  Sometimes, I find myself listening in spite of myself, and sadness threatens to overcome me.  But I don\'t have to let it master me.',
+        choices: [
+            {
+                choice: 'I keep ignoring the song.',
+                nextStoryNode: 13
+            },
+            {
+                choice: 'I close my eyes and listen.',
+                nextStoryNode: 17
+            }
+        ]
+    },
+    {
+        id: 13,
+        story: 'The world moves on, and I move with it.  Years pass.  Then decades.  When I look back at my life, I can say I lived.  Nothing more, nothing less.  If I haven\'t done anything remarkable, does it matter?  \r\n I can\'t quite say when I stopped hearing the song.  When I notice the silence, in my heart I know the song had been gone for years.  But one day, to my surprise, I hear it again.  In a different voice.',
+        choices: [
+            {
+                choice: 'I listen to the new voice.',
+                nextStoryNode: 14
+            },
+            {
+                choice: 'I ignore the new voice.',
+                nextStoryNode: 16
+            }
+        ]
+    },
+    {
+        id: 14,
+        story: 'As I listen to the cadence of this voice, I realise: it\'s one I don\'t know.  And I did know the old voice.  Knew it better than any other.  How could I have failed to notice that?  How could it have become clear only by contrast?  \r\n The world shifts and distorts around me.  Colours invert.  Sight becomes sound.  Everything falls apart.',
+        choices: [
+            {
+                choice: 'Chaos carries me onwards.',
+                nextStoryNode: 15
+            }
+        ]
+    },
+    {
+        id: 15,
+        story: 'Slowly, my senses return.  I open my eyes.  I\'m in hospital.  On my bedside table is a ring.  I know with sudden clarity who it belongs to.  \r\n The nurse in front of me is singing the song, in a low voice.  When she turns and sees me awake, she screams.  \r\n I cover my face with my aged, wrinked hands.  And I weep.',
+        choices: [
+            {
+                choice: 'The end.  Begin again?',
+                nextStoryNode: 1
+            }
+        ]
     }
 ];
 
