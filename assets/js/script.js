@@ -177,7 +177,7 @@ const storyNodes = [
         choices: [
             {
                 choice: 'I listen more.',
-                nextStoryNode: 16
+                nextStoryNode: 18
             },
             {
                 choice: 'I try to block out the song.',
