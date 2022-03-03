@@ -246,6 +246,196 @@ const storyNodes = [
                 nextStoryNode: 1
             }
         ]
+    },
+    {
+        id: 16,
+        story: 'Before long, the new voice fades away.  I live my remaining time in silence.  \r\n Eventually, I slow and lose focus.  When the end approaches, it feels just as unsurprising as everything that\'s happened in my life.  Or... almost everything.  \r\n When my final day comes, I die as I lived.  Why should I regret anything?',
+        choices: [
+            {
+                choice: 'The end.  Begin again?',
+                nextStoryNode: 1
+            }
+        ]
+    },
+    {
+        id: 17,
+        story: 'The song is simple, almost child-like.  Verse and chorus go back and forth with so little variation that one might call it boring.  Yet there\'s something comforting about it.  Like a warm drink on a cold night.',
+        choices: [
+            {
+                choice: 'I go back to ignoring the song.',
+                nextStoryNode: 13
+            },
+            {
+                choice: 'I listen more.',
+                nextStoryNode: 18
+            }
+        ]
+    },
+    {
+        id: 18,
+        story: 'No matter how often I listen to the words, I can\'t make them out their meaning.  They sound right, like I should know what they\'re saying.  But I don\'t.  Instead, I listen to the voice itself.  To the accent, the precise lilt and cadence.  To the emotion.  And I find tears on my face.  From this voice, I know one thing: I am loved.',
+        choices: [
+            {
+                choice: 'I keep listening.',
+                nextStoryNode: 20
+            },
+            {
+                choice: 'I stop listening.',
+                nextStoryNode: 19
+            }
+        ]
+    },
+    {
+        id: 19,
+        story: 'Having truly heard the voice, it\'s not easy to stop.  No matter what I do, the song seems to worm its way into every moment.  The strange sights become constant too.  Always, at the edge of my vision, there\'s movement that vanishes when I look.  I may be losing my mind. \r\n Above all, I cannot escape the emotion I hear in the song.  Sometimes fondness.  Sometimes sorrow.  But always love.  Can I face it?',
+        choices: [
+            {
+                choice: 'I try to sleep as much as possible.',
+                nextStoryNode: 21
+            },
+            {
+                choice: 'I give myself over to the song.',
+                nextStoryNode: 20
+            }
+        ]
+    },
+    {
+        id: 20,
+        story: 'The words themselves never mattered.  It was always the feeling within them.  How long has this voice sung to me, reaching out to my loneliness?  How long has this singer been at my side, unseen?  \r\n The more I listen, the more a matching feeling rises within me.  A love.  A need.  But what will I do with it?',
+        choices: [
+            {
+                choice: 'I sing the song.',
+                nextStoryNode: 24
+            },
+            {
+                choice: 'I fear my feelings.',
+                nextStoryNode: 25
+            }
+        ]
+    },
+    {
+        id: 21,
+        story: 'Awake, I can\'t shut out the song.  But all senses vanish in slumber.  I do whatever I can to stay asleep.  No measure is too drastic.  \r\n My health declines.  I can see as much, the odd times I awake.  Yet somehow, as little as I eat and drink, it seems to be enough.',
+        choices: [
+            {
+                choice: 'I try returning to normal.',
+                nextStoryNode: 22
+            },
+            {
+                choice: 'I sleep as much as I can.',
+                nextStoryNode: 23
+            }
+        ]
+    },
+    {
+        id: 22,
+        story: 'I\'m not sure how long I spent mostly sleeping.  The experience took its toll on my body.  But with time and effort, I slowly return to normal - or whatever passes for normal now.  When I do, I hear the song again.  In a different voice.',
+        choices: [
+            {
+                choice: 'I listen to the new voice.',
+                nextStoryNode: 14
+            },
+            {
+                choice: 'I ignore the new voice.',
+                nextStoryNode: 16
+            }
+        ]
+    },
+    {
+        id: 23,
+        story: 'After a time - who knows how long - the boundary between the sleeping and waking worlds breaks down.  When I dream, I see myself as I used to be.  When I wake, everything seems so alien that I can barely believe I\'m still myself.  Did the world change, or did I?  \r\n Still, I cling to an approximation of life.  And the song fades at last.',
+        choices: [
+            {
+                choice: 'The end.  Begin again?',
+                nextStoryNode: 1
+            }
+        ]
+    },
+    {
+        id: 24,
+        story: 'As ever, the words elude me.  But the melody does not.  I raise my voice in a wordless chorus, joining the one who sings to me.  \r\n It\'s not easy.  My voice is seldom used.  I can\'t quite keep the beat.  Yet the singer responds, slowing the song to match my tempo.  We sing as one.  \r\n The world shifts around me, moving to the rhythm of the song.  Sight becomes sound, and all is the song.  Everything comes together.',
+        choices: [
+            {
+                choice: 'Music carries me onwards.',
+                nextStoryNode: 30
+            }
+        ]
+    },
+    {
+        id: 25,
+        story: 'For as long as I can recall, I\'ve been lonely.  When I try to call names and faces to mind, they slip away.  Can I really reach out to the singer, not knowing what may happen?  Life as it is may be solitary - and prone to profound strangeness - but it\'s safe.  \r\n Still... is safety all there is?',
+        choices: [
+            {
+                choice: 'I sing the song.',
+                nextStoryNode: 24
+            },
+            {
+                choice: 'I just keep listening.',
+                nextStoryNode: 26
+            },
+            {
+                choice: 'I seek refuge in sleep.',
+                nextStoryNode: 21
+            }
+        ]
+    },
+    {
+        id: 26,
+        story: 'Life as I know it isn\'t so bad.  And the song is a kind of company.  As I move through life, the song moves with me.  Ever-present.  \r\n Years pass.  Then decades.  One day, suddenly, the song stops.  It\'s been with me so long, I notice its absence at once.',
+        choices: [
+            {
+                choice: 'I sing the song.',
+                nextStoryNode: 28
+            },
+            {
+                choice: 'I stay silent.',
+                nextStoryNode: 27
+            }
+        ]
+    },
+    {
+        id: 27,
+        story: 'I carry on, alone, in a world without music.  Until, one day, I hear the song in a different voice.',
+        choices: [
+            {
+                choice: 'I listen to the new voice.',
+                nextStoryNode: 14
+            },
+            {
+                choice: 'I ignore the new voice.',
+                nextStoryNode: 16
+            }
+        ]
+    },
+    {
+        id: 28,
+        story: 'As ever, the words elude me.  But the melody does not.  I raise my voice in an echo of the one who sang to me for so long.  \r\n The world shifts around me, moving to the rhythm of the song.  Sight becomes sound, and all is the song.  Everything comes together.',
+        choices: [
+            {
+                choice: 'Music carries me onwards.',
+                nextStoryNode: 29
+            }
+        ]
+    },
+    {
+        id: 29,
+        story: 'Slowly, my senses return.  I open my eyes.  I\'m in hospital.  \r\n Beside me, slumped in a visitor\'s chair, is the one I know better than anyone else.  Aged by decades, yet time could never make a stranger of this most precious person.  The singer of the song.  \r\n When I reach out, my hands look old too.  I touch the singer\'s face.  And our eyes meet for a final time.',
+        choices: [
+            {
+                choice: 'The end.  Begin again?',
+                nextStoryNode: 1
+            }
+        ]
+    },
+    {
+        id: 30,
+        story: 'Slowly, my senses return.  I open my eyes.  I\'m in hospital.  \r\n Beside me, holding my hand, is the one I know better than anyone else.  A few years older, yet time could never make a stranger of this most precious person.  The singer of the song.  \r\n Tears run down the singer\'s face.  Arms open to embrace me.  The song pauses.  But life begins.',
+        choices: [
+            {
+                choice: 'The end.  Take another path?',
+                nextStoryNode: 1
+            }
+        ]
     }
 ];
 
