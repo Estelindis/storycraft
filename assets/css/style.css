@@ -39,8 +39,12 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-#navbar, #story, .choice {
+#story, .choice {
     padding: 20px;
+}
+
+#navbar {
+    padding: 20px 20px 0;    
 }
   
 .choice:hover {
