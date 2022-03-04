@@ -45,7 +45,7 @@ const storyNodes = [
     },
     {
         id: 2,
-        story: 'Life continues as always.  Never anything worth describing, for better or worse.  No triumph.  No suffering.  Only the knowledge that tomorrow will be the same as yesterday.  Sometimes anomalies flash at the edge of my vision, but I pay them no heed.  Then, one day, I hear a snatch of a song.  So familiar, yet I can\'t place where I heard it.  I turn to find the singer, but no-one\'s here.  I\'m completely alone.',
+        story: 'Life continues as always.  Never anything worth describing, for better or worse.  No triumph.  No suffering.  Only the knowledge that tomorrow will be the same as yesterday.  Sometimes anomalies flash at the edge of my vision, but I pay them no heed.  Then, one day, I hear a snatch of a song.  So familiar, yet I can\'t place where I heard it.  I turn to find the singer, but I see no one.',
         choices: [
             {
                 choice: 'Am I losing my mind?',
@@ -63,7 +63,7 @@ const storyNodes = [
     },
     {
         id: 3,
-        story: 'When I look at the anomaly quickly, it vanishes.  So I look slowly.  Unfocusing my eyes, I let my vision drift, moving casually towards the anomaly.  It looks like... a curtain.  Flickering at the edge of my sight.  Billowing in the wind, though the air around me is utterly still.  When I try to make out more detail, it fades away.  \r\n And so my days pass, trying to see more of the strangeness, but not so much that it flees from my sight.  One day I see a vase.  Then a fork.  Then, for the barest moment, a diamond ring on a shadowed hand.  The jewel flashes like the sun and is gone.  As my vision adjusts, I begin to hear a song.  So familiar, yet I can\'t place where I heard it.  I turn to find the singer, but no-one\'s here.  I\'m completely alone.',
+        story: 'When I look at the anomaly quickly, it vanishes.  So I look slowly.  Unfocusing my eyes, I let my vision drift, moving casually towards the anomaly.  It looks like a curtain, flickering at the edge of my sight.  Billowing in the wind, though the air around me is utterly still.  When I try to make out more detail, it fades away.  \r\n In the following days, I try to see more.  One day I glimpse a vase.  Then a fork.  Then, for a moment, a gold ring on a shadowed hand.  It flashes like the sun and is gone.  As my vision adjusts, I begin to hear a song.  So familiar, yet I can\'t place where I heard it.  I turn to find the singer, but I see no one.',
         choices: [
             {
                 choice: 'Am I losing my mind?',
@@ -99,7 +99,7 @@ const storyNodes = [
     },
     {
         id: 5,
-        story: 'The question is worth asking.  But how to answer it?  If I\'m broken, can I self-diagnose?  Can I make sense of sounds and sights that make no sense at all?',
+        story: 'The question is worth asking.  But how to answer it?  If I\'m broken, can I self-diagnose?  Can I make sense of things that make no sense at all?',
         choices: [
             {
                 choice: 'I try to work it out logically.',
@@ -173,7 +173,7 @@ const storyNodes = [
     },
     {
         id: 10,
-        story: 'The song is simple, almost child-like.  Verse and chorus go back and forth with so little variation that one might call it boring.  Yet there\'s something comforting about it.  Like a warm drink on a cold night.',
+        story: 'The song is simple, almost child-like.  Verse and chorus have so little variation that one might call it boring.  Yet there\'s something comforting about it.  Like a warm drink on a cold night.',
         choices: [
             {
                 choice: 'I listen more.',
@@ -259,7 +259,7 @@ const storyNodes = [
     },
     {
         id: 17,
-        story: 'The song is simple, almost child-like.  Verse and chorus go back and forth with so little variation that one might call it boring.  Yet there\'s something comforting about it.  Like a warm drink on a cold night.',
+        story: 'The song is simple, almost child-like.  Verse and chorus have little variation that one might call it boring.  Yet there\'s something comforting about it.  Like a warm drink on a cold night.',
         choices: [
             {
                 choice: 'I go back to ignoring the song.',
@@ -315,7 +315,7 @@ const storyNodes = [
     },
     {
         id: 21,
-        story: 'Awake, I can\'t shut out the song.  But all senses vanish in slumber.  I do whatever I can to stay asleep.  No measure is too drastic.  \r\n My health declines.  I can see as much, the odd times I awake.  Yet somehow, as little as I eat and drink, it seems to be enough.',
+        story: 'Awake, I can\'t shut out the song.  But all senses vanish in slumber.  I do whatever I can to stay asleep.  No measure is too drastic.  \r\n My health declines.  The odd times I awake, I can see how frail I\'ve become.  Yet somehow, as little as I eat and drink, it seems to be enough.',
         choices: [
             {
                 choice: 'I try returning to normal.',
