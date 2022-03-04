@@ -14,9 +14,12 @@ function showStoryNode(storyNodeList) {
         choiceElements.removeChild(choiceElements.firstChild);
     }
 
+    let choiceNumber = 0;
+
     storyNode.choices.forEach(choice =>{
             let choiceParagraph = document.createElement('p');
-            choiceParagraph.innerText = choice.choice;
+            choiceNumber++;
+            choiceParagraph.innerText = `${choiceNumber}: ${choice.choice}`;
             choiceParagraph.classList.add('choice');
             choiceParagraph.addEventListener('click', () => makeChoice(choice));
             choiceElements.appendChild(choiceParagraph);       
