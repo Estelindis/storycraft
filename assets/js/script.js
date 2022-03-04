@@ -343,7 +343,7 @@ const storyNodes = [
     },
     {
         id: 23,
-        story: 'After a time - who knows how long - the boundary between the sleeping and waking worlds breaks down.  When I dream, I see myself as I used to be.  When I wake, everything seems so alien that I can barely believe I\'m still myself.  Did the world change, or did I?  \r\n Still, I cling to an approximation of life.  And the song fades at last.',
+        story: 'After a time - who knows how long - the boundary between sleeping and waking breaks down.  When I dream, I see myself as I used to be.  When I wake, everything seems so alien that I can barely believe I\'m still myself.  Did the world change, or did I?  \r\n Still, I cling to an approximation of life.  And the song fades at last.  In time, so do I.',
         choices: [
             {
                 choice: 'The end.  Begin again?',
