@@ -21,7 +21,12 @@ function showStoryNode(storyNodeList) {
             choiceNumber++;
             choiceParagraph.innerText = `${choiceNumber}: ${choice.choiceText}`;
             choiceParagraph.classList.add('choice');
+            choiceParagraph.id = `${choice.nextStoryNode}`;
             choiceParagraph.addEventListener('click', () => makeChoice(choice));
+            document.addEventListener('keydown', (event) => {
+                if (event.key === `${choiceNumber}`)
+                {alert("You pressed "+`${choiceNumber}`);}
+              }, false);
             choiceElements.appendChild(choiceParagraph);       
     });
 }
