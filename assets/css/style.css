@@ -54,14 +54,45 @@ h1, h2, h3 {
 
 #portrait-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 3% 3%;
     grid-auto-flow: row;
     grid-template-areas:
-        "f_01 f_02 f_03 f_04"
-        "f_05 f_06 m_01 m_02"
-        "m_03 m_04 m_05 m_06";
-    width: 800px;
-    height: 600px;
+        "f-01 f-02 m-05 m-06"
+        "f-05 f-06 m-01 m-02"
+        "m-03 m-04 f-03 f-04";
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+/* #f_01 { grid-area: f-01; }
+#f_02 { grid-area: f-02; }
+#f_03 { grid-area: f-03; }
+#f_04 { grid-area: f-04; }
+#f_05 { grid-area: f-05; }
+#f_06 { grid-area: f-06; }
+#m_01 { grid-area: m-01; }
+#m_02 { grid-area: m-02; }
+#m_03 { grid-area: m-03; }
+#m_04 { grid-area: m-04; }
+#m_05 { grid-area: m-05; }
+#m_06 { grid-area: m-06; } */
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+@media screen and (max-width: 768px) {
+    #portrait-box {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+        "f-01 f-02 m-05"
+        "m-06 f-05 f-06" 
+        "m-01 m-02 m-03"
+        "m-04 f-03 f-04";
+    }
 }
