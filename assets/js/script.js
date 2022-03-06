@@ -409,12 +409,13 @@ newStory();
 window.addEventListener("keydown", keyboardShortcut);
 
 function keyboardShortcut(key) {
+    console.log(key);
     let choiceQuantity = document.getElementById("choice-box").childNodes.length;
-    if (key.keyCode == "49" || "97") {
-        alert("The '1' choice has been chosen.");
-    } else if ((key.keyCode == "50" || "98") && choiceQuantity === 2) {
-        alert("The '2' choice has been chosen.");
-    } else if ((key.keyCode == "51" || "99") && choiceQuantity === 3) {
-        alert("The '3' choice has been chosen.");
+    if ((key.keyCode === 49) || (key.keyCode === 97)) {
+        alert(`From a range of ${choiceQuantity}, 1 was chosen.`);
+    } else if ((key.keyCode === 50 || (key.keyCode === 98)) && (choiceQuantity === 2)) {
+        alert(`From a range of ${choiceQuantity}, 2 was chosen.`);
+    } else if ((key.keyCode === 51 || (key.keyCode === 99)) && (choiceQuantity === 3)) {
+        alert(`From a range of ${choiceQuantity}, 3 was chosen.`);
     }
 }
