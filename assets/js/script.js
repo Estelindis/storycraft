@@ -23,10 +23,6 @@ function showStoryNode(storyNodeList) {
             choiceParagraph.classList.add('choice');
             choiceParagraph.id = `${choice.nextStoryNode}`;
             choiceParagraph.addEventListener('click', () => makeChoice(choice));
-            document.addEventListener('keydown', (event) => {
-                if (event.key === `${choiceNumber}`)
-                {alert("You pressed "+`${choiceNumber}`);}
-              }, false);
             choiceElements.appendChild(choiceParagraph);       
     });
 }
@@ -448,3 +444,18 @@ const storyNodes = [
 ];
 
 newStory();
+
+window.addEventListener("keydown", keyboardShortcut, false);
+
+function keyboardShortcut(key) {
+ let choiceQuantity = document.getElementById("choice-box").childNodes.length;
+ if (key.keyCode == "49" || "97") {
+ alert("The '1' choice has been chosen.");
+ }
+ else if ((key.keyCode == "50" || "98") && choiceQuantity === 2) {
+ alert("The '2' choice has been chosen.");
+ } 
+ else if ((key.keyCode == "51" || "99") && choiceQuantity === 3) {
+ alert("The '3' choice has been chosen.");
+ } 
+}
