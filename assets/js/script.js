@@ -423,5 +423,7 @@ function keyboardShortcut(key) {
 	// console.log(choiceKeyboard);
     let storyKeyboard = parseInt(choiceKeyboard.getAttribute("data-next-story"));
     // console.log(storyKeyboard);
-    showStoryNode(storyKeyboard);
+    if (storyKeyboard > 0) {
+        showStoryNode(storyKeyboard);
+    }
 }
