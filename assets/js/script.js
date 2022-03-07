@@ -21,7 +21,8 @@ function showStoryNode(storyNodeList) {
         choiceNumber++;
         choiceParagraph.innerText = `${choiceNumber}: ${choice.choiceText}`;
         choiceParagraph.classList.add('choice');
-        choiceParagraph.id = `${choice.nextStoryNode}`;
+        choiceParagraph.setAttribute('data-choice-number', `${choiceNumber}`);
+        choiceParagraph.setAttribute('data-next-story', `${choice.nextStoryNode}`);
         choiceParagraph.addEventListener('click', () => makeChoice(choice));
         choiceElements.appendChild(choiceParagraph);
     });
@@ -410,12 +411,20 @@ window.addEventListener("keydown", keyboardShortcut);
 
 function keyboardShortcut(key) {
     console.log(key);
+	let choiceKeyboard;
     let choiceQuantity = document.getElementById("choice-box").childNodes.length;
     if ((key.keyCode === 49) || (key.keyCode === 97)) {
-        alert(`From a range of ${choiceQuantity}, 1 was chosen.`);
+        // alert(`From a range of ${choiceQuantity}, 1 was chosen.`);
+		choiceKeyboard = document.getElementById('choice-box').childNodes[0];
     } else if ((key.keyCode === 50 || (key.keyCode === 98)) && (choiceQuantity === 2)) {
-        alert(`From a range of ${choiceQuantity}, 2 was chosen.`);
+        // alert(`From a range of ${choiceQuantity}, 2 was chosen.`);
+		choiceKeyboard = document.getElementById('choice-box').childNodes[1];
     } else if ((key.keyCode === 51 || (key.keyCode === 99)) && (choiceQuantity === 3)) {
-        alert(`From a range of ${choiceQuantity}, 3 was chosen.`);
+        // alert(`From a range of ${choiceQuantity}, 3 was chosen.`);
+		choiceKeyboard = document.getElementById('choice-box').childNodes[2];
     }
+	console.log(choiceKeyboard);
+    let storyKeyboard = parseInt(choiceKeyboard.getAttribute("data-next-story"));
+    console.log(storyKeyboard);
+    showStoryNode(storyKeyboard);
 }
