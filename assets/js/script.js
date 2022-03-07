@@ -410,7 +410,7 @@ newStory();
 window.addEventListener("keydown", keyboardShortcut);
 
 function keyboardShortcut(key) {
-    console.log(key);
+    // console.log(key.key);
 	let choiceKeyboard;
     let choiceQuantity = document.getElementById("choice-box").childNodes.length;
     if (key.keyCode === 49 || key.keyCode === 97) {
@@ -420,8 +420,8 @@ function keyboardShortcut(key) {
     } else if ((key.keyCode === 51 || (key.keyCode === 99)) && (choiceQuantity === 3)) {
 		choiceKeyboard = document.getElementById('choice-box').childNodes[2];
     }
-	console.log(choiceKeyboard);
+	// console.log(choiceKeyboard);
     let storyKeyboard = parseInt(choiceKeyboard.getAttribute("data-next-story"));
-    console.log(storyKeyboard);
+    // console.log(storyKeyboard);
     showStoryNode(storyKeyboard);
 }
