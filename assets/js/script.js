@@ -65,7 +65,7 @@ const storyNodes = [{
     },
     {
         id: 3,
-        story: 'When I look at the anomaly quickly, it vanishes.  So I look slowly.  Unfocusing my eyes, I let my vision drift, moving casually towards the anomaly.  It looks like a curtain, flickering at the edge of my sight.  Billowing in the wind, though the air around me is utterly still.  When I try to make out more detail, it fades away.  \r\n In the following days, I try to see more.  One day I glimpse a vase.  Then a fork.  Then, for a moment, a gold ring on a shadowed hand.  It flashes like the sun and is gone.  As my vision adjusts, I begin to hear a song.  So familiar, yet I can\'t place where I heard it.  I turn to find the singer, but I see no one.',
+        story: 'When I look at the anomaly quickly, it vanishes.  So I let my vision drift towards it slowly.  It looks like a curtain, flickering at the edge of my sight.  Billowing in the wind, though the air around me is utterly still.  When I try to focus, it fades.  Over time, I see more.  One day, I glimpse a vase.  Then a gold ring on a shadowed hand.  It flashes like the sun and is gone.  As my vision adjusts, I begin to hear a song.  So familiar, yet I can\'t place where I heard it.  I turn to find the singer, but I see no one.',
         choices: [{
                 choiceText: 'Am I losing my mind?',
                 nextStoryNode: 5
@@ -413,14 +413,11 @@ function keyboardShortcut(key) {
     console.log(key);
 	let choiceKeyboard;
     let choiceQuantity = document.getElementById("choice-box").childNodes.length;
-    if ((key.keyCode === 49) || (key.keyCode === 97)) {
-        // alert(`From a range of ${choiceQuantity}, 1 was chosen.`);
+    if (key.keyCode === 49 || key.keyCode === 97) {
 		choiceKeyboard = document.getElementById('choice-box').childNodes[0];
-    } else if ((key.keyCode === 50 || (key.keyCode === 98)) && (choiceQuantity === 2)) {
-        // alert(`From a range of ${choiceQuantity}, 2 was chosen.`);
+    } else if ((key.keyCode === 50 || key.keyCode === 98) && (choiceQuantity === 2 || choiceQuantity === 3)) {
 		choiceKeyboard = document.getElementById('choice-box').childNodes[1];
     } else if ((key.keyCode === 51 || (key.keyCode === 99)) && (choiceQuantity === 3)) {
-        // alert(`From a range of ${choiceQuantity}, 3 was chosen.`);
 		choiceKeyboard = document.getElementById('choice-box').childNodes[2];
     }
 	console.log(choiceKeyboard);
