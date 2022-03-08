@@ -3,10 +3,14 @@
 let storyElement = document.getElementById('story');
 let choiceElements = document.getElementById('choice-box');
 
+/* newStory function starts the story from node 1 and changes start button to restart */
+
 function newStory() {
     showStoryNode(1);
     document.getElementById("restart-btn").innerHTML = "Start Again";
 }
+
+/* showStoryNode function removes previous content and replaces it with chosen content */
 
 function showStoryNode(storyNodeList) {
     let storyNode = storyNodes.find(storyNode => storyNode.id === storyNodeList);
@@ -29,10 +33,14 @@ function showStoryNode(storyNodeList) {
     });
 }
 
+/* makeChoice function, called by clicking on a choice, shows the next story node for that choice */
+
 function makeChoice(choice) {
     let nextStory = choice.nextStoryNode;
     showStoryNode(nextStory);
 }
+
+/* story content is stored in the variable storyNodes, an object in which each choices value is also an object */
 
 const storyNodes = [{
         id: 1,
@@ -406,9 +414,7 @@ const storyNodes = [{
     }
 ];
 
-// newStory();
-
-/* Keyboard shortcuts - make story choices via number keys */
+/* keyboardShortcut function shows story nodes chosen by number key press */
 
 window.addEventListener("keydown", keyboardShortcut);
 
@@ -430,7 +436,7 @@ function keyboardShortcut(key) {
     }
 }
 
-/* Hamburger */
+/* Hamburger toggle */
 
 const hamburger = document.querySelector(".hamburger");
 const menuList = document.querySelector(".menu-list");
@@ -458,5 +464,5 @@ menuItem2.addEventListener("click", () => {
     explanation2.classList.toggle("active");
 });
 
-/* Restart button restarts the story on click */
+/* Restart button, initially the Start button, restarts the story on click */
 document.getElementById("restart-btn").addEventListener("click", newStory);

@@ -7,6 +7,7 @@
     <!-- Font Awesome script -->
     <script src="https://kit.fontawesome.com/8d7fda743f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
     <script defer src="assets/js/script.js"></script>
     <title>StoryCraft</title>
@@ -17,6 +18,7 @@
             <header>
                 <div id="logo-bar">
                     <h1 id="logo-head">StoryCraft</h1>
+                    <!-- Popout menu in case users are confused about how to play the game, adapted from a tutorial by YouTube user codefoxx, link in readme -->
                     <ul class="menu-list">
                         <li class="menu-item">
                             <div><span class="expl-1">Choose from numbered options to advance your story <i class="fas fa-long-arrow-alt-left"></i> </span><span class="menu-1">How to Play</span></div>
@@ -32,6 +34,7 @@
                     </div>
                 </div>
             </header>
+            <!-- Story content is automatically removed and added via Javascript, based on user choice -->
             <div id="story-box">
                 <p id="story">Welcome to StoryCraft, a branching narrative game.  Will you find all four endings?  Begin by pressing "Start."</p>
             </div>
@@ -40,6 +43,7 @@
                 <p class="choice"></p>
                 <p class="choice"></p>
             </div>
+            <!-- Initially a start button, this changes to restart the game once the user has clicked to start for the first time -->
             <p class = "restart">
                 <button id="restart-btn">Start</button>
             </p>
