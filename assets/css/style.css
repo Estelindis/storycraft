@@ -68,6 +68,10 @@ li {
     text-align: right;
 }
 
+.menu-1, .menu-2 {
+    cursor: pointer;
+}
+
 .menu-1:hover, .menu-2:hover {
     font-weight: bold;
 }
