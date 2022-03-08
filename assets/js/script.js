@@ -1,5 +1,7 @@
 /*jshint esversion: 6 */
 
+/* Story functions are adapted from a tutorial by YouTube user Web Dev Simplified, link in readme */
+
 let storyElement = document.getElementById('story');
 let choiceElements = document.getElementById('choice-box');
 
