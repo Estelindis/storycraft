@@ -9,13 +9,13 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    background-color: #222222;
-    color: #d0d0d0;
     text-align: justify;
 }
 
 p, span, div, #restart-btn {
     font-family: 'Dosis', sans-serif;
+    background-color: #222222;
+    color: #d0d0d0;
 }
 
 /* Pop-out menu */
