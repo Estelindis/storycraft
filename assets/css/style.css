@@ -212,7 +212,17 @@ img {
 
 }
 
+
 /* Responsive styling for small screens */
+
+@media screen and (max-width: 400px) {
+    #restart-btn, #story, .choice, .menu-item, .menu-list, #logo-bar {
+        padding: 3% 8%;
+    }
+}
+
+
+/* Responsive styling for smallest screens */
 
 @media screen and (max-width: 320px) {
     #restart-btn, #story, .choice, .menu-item, .menu-list, #logo-bar {
