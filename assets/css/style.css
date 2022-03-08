@@ -5,7 +5,6 @@
 /* Global style */
 
 *, *::before, *::after {
-    font-family: 'Dosis', sans-serif;
     margin:0;
     padding:0;
     border:0;
@@ -15,13 +14,14 @@
     text-align: justify;
 }
 
-/* Navbar */
-li {
-    list-style: none;
+p, span, div {
+    font-family: 'Dosis', sans-serif;
 }
 
-a {
-    text-decoration: none;
+/* Pop-out menu */
+
+li {
+    list-style: none;
 }
 
 .navbar {
@@ -35,7 +35,7 @@ a {
 .nav-menu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     position: fixed;
     left: 0;
     top: 70px;
@@ -49,7 +49,7 @@ a {
 }
 
 .nav-item {
-    margin: 16px 0;
+    margin: 16px 24px;
 }
 
 .nav-menu.active {
@@ -60,13 +60,15 @@ a {
     font-size: 2rem;
 }
 
-.nav-link {
-    transition: 0.7s ease;
+.nav-text {
+    transition: 0.3s ease;
 }
 
-.nav-link:hover {
-    color: rgb(17, 182, 127);
+.nav-text:hover {
+    font-weight: bold;
 }
+
+/* Hamburger graphic and transition animation */
 
 .hamburger {
     display: block;
