@@ -438,7 +438,7 @@ const menuList = document.querySelector(".menu-list");
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     menuList.classList.toggle("active");
-})
+});
 
 /* Pop-up menu items elaborate on click */
 
@@ -448,7 +448,7 @@ const explanation1 = document.querySelector(".expl-1");
 menuItem1.addEventListener("click", () => {
     menuItem1.classList.toggle("active");
     explanation1.classList.toggle("active");
-})
+});
 
 const menuItem2 = document.querySelector(".menu-2");
 const explanation2 = document.querySelector(".expl-2");
@@ -456,7 +456,7 @@ const explanation2 = document.querySelector(".expl-2");
 menuItem2.addEventListener("click", () => {
     menuItem2.classList.toggle("active");
     explanation2.classList.toggle("active");
-})
+});
 
 /* Restart button restarts the story on click */
 document.getElementById("restart-btn").addEventListener("click", newStory);
