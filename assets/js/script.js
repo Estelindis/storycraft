@@ -5,6 +5,7 @@ let choiceElements = document.getElementById('choice-box');
 
 function newStory() {
     showStoryNode(1);
+    document.getElementById("restart-btn").innerHTML = "Start Again";
 }
 
 function showStoryNode(storyNodeList) {
@@ -405,7 +406,7 @@ const storyNodes = [{
     }
 ];
 
-newStory();
+// newStory();
 
 /* Keyboard shortcuts - make story choices via number keys */
 
