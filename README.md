@@ -9,7 +9,11 @@
     1. [User Goals](#user-goals)
     2. [Owner Goals](#owner-goals)
 2. [Website structure](#website-structure)
-    1. [Landing Page](#landing-page)
+    1. [Landing Page](#landing-page-and-story-content)
+3. [Wireframes](#wireframes)
+    1. [Mobile](#mobile)
+    2. [Desktop](#desktop)
+	3. [Narrative](#narrative)
 
 # About the project
 StoryCraft is designed to be a shortform narrative game in which the user can make meaningful choices. 
@@ -26,15 +30,32 @@ StoryCraft is designed to be a shortform narrative game in which the user can ma
 # Website structure
 The website is presented as a single page, the content of which changes as the user advances through the story.  As all content should be displayed on a single screen at all times, without the need to scroll, a navbar proper is not needed.  However, a hamburger menu is provided to clarify how to play the game and what controls can be used, in case such information is not apparent to the user.
 
-![Landing page on multiple devices.](/assets/image-readme/landing-responsive.jpg)
+## Landing Page and Story Content
+- The user may find it jarring to be immediately confronted with story content and choices, without any explanation of what the site is and what users can do there.  As such, on loading the site, the user immediately encounters a brief description of the site and is invited to begin a story by pressing the Start button.  The user will not see this invitation again unless they reload the page.  
+- Once the Start button is pressed, the user will exclusively experience story content (unless they reload the site or consult the menu).  Story content consists of some establishing text and a number of choices which may be taken to advance the story.  Eventually, a series of choices leads to an ending being locked in.  Once this occurs, the "choices" are reduced to one.  By selecting this sole remaining "choice," the user reaches one of the story's four endings.  The user may then begin again from the start.  Additionally, the option to begin again is always present at the bottom of the page.  
 
-## Landing Page 
-- The user may find it jarring to be immediately confronted with story content and choices, without any explanation of what the site is and what users can do there.  As such, on loading the index, the user immediately encounters a brief description of the site and is invited to begin a story by pressing the Start button.  The user will not see this invitation again unless they reload the page.     
-
+![Landing page on multiple devices.](/assets/image-readme/landing-responsive.jpg) 
 ![Story content on multiple devices.](/assets/image-readme/story-responsive.jpg)
 
-##Story Content  
-- Once the Start button is pressed, the user will exclusively experience story content (unless they reload the page or consult the menu).  Story content consists of some establishing text and a number of choices which may be taken to advance the story.  Eventually, a series of choices leads to an ending being locked in.  Once this occurs, the "choices" are reduced to one.  By selecting this sole remaining "choice," the user reaches one of the story's four endings.  The user may then begin again from the start.  Additionally, the option to begin again is always present at the bottom of the page.
+# Wireframes
+The site was prototyped in GIMP using the initially chosen colour palette, fonts, and background image.  While some elements changed as the project developed and its scope was altered, several aspects of the initial design persisted to the final product.  Both mobile and desktop wireframes show a portrait feature that did not make the final version of the site, as scope was reduced to achieve the minimum viable product.
+
+## Mobile
+- The mobile version of the site was wireframed first.  Working with a small gameplay area made it clear that each story element should be limited to a certain size, so that all story content could be displayed on small devices without scrolling.  The narrative aim of offering a story experience that can be read relatively quickly and easily is supported by the visual reasons to limit the size of individual pieces of story content.
+
+![Initial mock-up of the mobile site.](/assets/image-readme/wireframe-mobile.jpg)
+
+## Desktop
+- The desktop version of the site has a larger area for story content.  However, keeping the amount of story content the same as what was established in the mobile wireframe, it becomes clear that allowing the gameplay area to stretch to almost full desktop width offers no additional utility.  By limiting the width of the gameplay area on larger screens, some aesthetic utility is gained as more of the background image is allowed to appear.
+
+![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-desk.jpg)
+
+## Narrative
+- As well as the usual wireframing, the particulars of a narrative game called for "wireframing" the story.  This was done in several stages, with the first including barebones versions of three stories, only one of which was ultimately written in full. 
+
+![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-narrative.jpg)
+
+
 
 ## User Experience (UX)
 
