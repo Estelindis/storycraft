@@ -22,6 +22,7 @@ p, span, div {
 
 li {
     list-style: none;
+    background-color: #3d3d3d;
 }
 
 #logo-bar {
@@ -46,7 +47,6 @@ li {
     gap: 0;
     flex-direction: column;
     opacity: 0;
-    background-color: #222222;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -58,6 +58,14 @@ li {
 
 .menu-item {
     margin: 16px 24px;
+}
+
+.fas, .menu-list, .menu-list * {
+    background-color: #3d3d3d;
+}
+
+.menu-item * {
+    text-align: right;
 }
 
 .menu-1:hover, .menu-2:hover {
@@ -138,6 +146,14 @@ h1, h2, h3 {
 
 .choice:hover {
     background-color: #3d3d3d;
+}
+
+/* Stick restart button at the bottom of the game area*/
+
+.restart {
+    position: absolute;
+    bottom: 40px;
+    right: 50%;
 }
 
 /* Grid display for portraits  */
