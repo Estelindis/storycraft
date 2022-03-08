@@ -1,4 +1,4 @@
-# StoryCraft - Project Portfolio 1 - JavaScript
+# StoryCraft - Project Portfolio 2 - JavaScript
 ## by Siobhán Mooney
 
 ### [Click here to view the site.](https://estelindis.github.io/storycraft/)
@@ -14,7 +14,7 @@
 StoryCraft is designed to be a shortform narrative game in which the user can make meaningful choices. 
 
 ## User Goals
-- - Experience a full story, from beginning to end, in a short amount of time.
+- Experience a full story, from beginning to end, in a short amount of time.
 - Encounter choices that are not merely cosmetic but have different characteristics and lead to different results. 
 - Navigate easily through a clear, readable website.
 
@@ -23,7 +23,7 @@ StoryCraft is designed to be a shortform narrative game in which the user can ma
 - Provide a clear user interface that does not obstruct the story experience.
 
 # Website structure
-The website is presented as a single page, the content of which changes as the user advances through the story.  As all content should be displayed on a single screen at all times, without the need to scroll, a navbar proper is not needed.  However, a hamburger menu is provided to clarify how to play the game and what controls can be used, in case such information is not apparent to the user.
+The website is presented as a single page, the content of which changes as the user advances through the story.  As all content should be displayed on a single screen at all times, without the need to scroll, a navbar proper is not needed.  However, a hamburger menu is provided to clarify how to play the game and what controls can be used, in case such information is not apparent to the user.  When not required, this information is tucked away, out of sight.
 
 
 ## User Experience (UX)
