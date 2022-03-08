@@ -457,3 +457,6 @@ menuItem2.addEventListener("click", () => {
     menuItem2.classList.toggle("active");
     explanation2.classList.toggle("active");
 })
+
+/* Restart button restarts the story on click */
+document.getElementById("restart-btn").addEventListener("click", newStory);
