@@ -24,7 +24,7 @@ li {
     list-style: none;
 }
 
-.navbar {
+#logo-bar {
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,11 @@ li {
     padding: 0 24px;
 }
 
-.nav-menu {
+#logo-head {
+    font-size: 2rem;
+}
+
+.menu-list {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -48,24 +52,28 @@ li {
     transition: 0.3s;
 }
 
-.nav-item {
-    margin: 16px 24px;
-}
-
-.nav-menu.active {
+.menu-list.active {
     opacity: 100%;
 }
 
-.nav-branding {
-    font-size: 2rem;
+.menu-item {
+    margin: 16px 24px;
 }
 
-.nav-text {
-    transition: 0.3s ease;
-}
-
-.nav-text:hover {
+.menu-1:hover, .menu-2:hover {
     font-weight: bold;
+}
+
+.menu-1.active, .menu-2.active {
+    font-weight: bold;
+}
+
+.expl-1, .expl-2 {
+    opacity: 0;
+}
+
+.expl-1.active, .expl-2.active {
+    opacity: 100%;
 }
 
 /* Hamburger graphic and transition animation */
@@ -123,16 +131,16 @@ h1, h2, h3 {
 }
 
 #story, .choice {
-    padding: 20px;
+    padding: 20px 24px;
 }
 
-#navbar {
-    padding: 20px 20px 0;    
-}
-  
+/* Highlight story choice on hover  */
+
 .choice:hover {
     background-color: #3d3d3d;
 }
+
+/* Grid display for portraits  */
 
 #portrait-box {
     display: grid;
@@ -153,6 +161,8 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+/* Responsive styling for portraits  */
 
 @media screen and (max-width: 768px) {
     #portrait-box {
