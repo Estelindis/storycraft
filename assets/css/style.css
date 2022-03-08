@@ -219,6 +219,11 @@ img {
     #restart-btn, #story, .choice, .menu-item, .menu-list, #logo-bar {
         padding: 3% 8%;
     }
+    .menu-item, .menu-item * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
 }
 
 
@@ -229,10 +234,5 @@ img {
         padding: 2.5% 8%;
         top: 50px;
         font-size: 14px;
-    }
-    .menu-item, .menu-item * {
-        margin: 0;
-        padding: 0;
-        border: 0;
     }
 }
