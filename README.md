@@ -1,10 +1,30 @@
-<h1 align="center">Code Institute Website</h1>
+# StoryCraft - Project Portfolio 1 - JavaScript
+## by Siobhán Mooney
 
-[View the live project here.](https://codeinstitute.net)
+### [Click here to view the site.](https://estelindis.github.io/storycraft/)
+### [Click here to view the repository.](https://github.com/Estelindis/storycraft)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+# Table of Contents:
+1. [About the project](#about-the-project)
+    1. [User Goals](#user-goals)
+    2. [Owner Goals](#owner-goals)
+2. [Website structure](#website-structure)
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+# About the project
+StoryCraft is designed to be a shortform narrative game in which the user can make meaningful choices. 
+
+## User Goals
+- - Experience a full story, from beginning to end, in a short amount of time.
+- Encounter choices that are not merely cosmetic but have different characteristics and lead to different results. 
+- Navigate easily through a clear, readable website.
+
+## Owner Goals
+- Present a short narrative that balances genuine story branching with the need to avoid scope creep.
+- Provide a clear user interface that does not obstruct the story experience.
+
+# Website structure
+The website is presented as a single page, the content of which changes as the user advances through the story.  As all content should be displayed on a single screen at all times, without the need to scroll, a navbar proper is not needed.  However, a hamburger menu is provided to clarify how to play the game and what controls can be used, in case such information is not apparent to the user.
+
 
 ## User Experience (UX)
 
