@@ -9,6 +9,7 @@
     1. [User Goals](#user-goals)
     2. [Owner Goals](#owner-goals)
 2. [Website structure](#website-structure)
+    1. [Landing Page](#landing-page)
 
 # About the project
 StoryCraft is designed to be a shortform narrative game in which the user can make meaningful choices. 
@@ -23,8 +24,17 @@ StoryCraft is designed to be a shortform narrative game in which the user can ma
 - Provide a clear user interface that does not obstruct the story experience.
 
 # Website structure
-The website is presented as a single page, the content of which changes as the user advances through the story.  As all content should be displayed on a single screen at all times, without the need to scroll, a navbar proper is not needed.  However, a hamburger menu is provided to clarify how to play the game and what controls can be used, in case such information is not apparent to the user.  When not required, this information is tucked away, out of sight.
+The website is presented as a single page, the content of which changes as the user advances through the story.  As all content should be displayed on a single screen at all times, without the need to scroll, a navbar proper is not needed.  However, a hamburger menu is provided to clarify how to play the game and what controls can be used, in case such information is not apparent to the user.
 
+![Landing page on multiple devices.](/assets/image-readme/landing-responsive.jpg)
+
+## Landing Page 
+- The user may find it jarring to be immediately confronted with story content and choices, without any explanation of what the site is and what users can do there.  As such, on loading the index, the user immediately encounters a brief description of the site and is invited to begin a story by pressing the Start button.  The user will not see this invitation again unless they reload the page.     
+
+![Story content on multiple devices.](/assets/image-readme/story-responsive.jpg)
+
+##Story Content  
+- Once the Start button is pressed, the user will exclusively experience story content (unless they reload the page or consult the menu).  Story content consists of some establishing text and a number of choices which may be taken to advance the story.  Eventually, a series of choices leads to an ending being locked in.  Once this occurs, the "choices" are reduced to one.  By selecting this sole remaining "choice," the user reaches one of the story's four endings.  The user may then begin again from the start.  Additionally, the option to begin again is always present at the bottom of the page.
 
 ## User Experience (UX)
 
