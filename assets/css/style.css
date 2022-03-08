@@ -5,9 +5,9 @@
 /* Global style */
 
 *, *::before, *::after {
-    margin:0;
-    padding:0;
-    border:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
     box-sizing: border-box;
     background-color: #222222;
     color: #d0d0d0;
@@ -164,7 +164,7 @@ h1, h2, h3 {
     display: block;
     width: 100%;
     background-color: #3d3d3d;
-    padding: 20px 24px;
+    padding: 20px;
     font-size: 1.2rem;
     text-align: center;
     cursor: pointer;
@@ -210,4 +210,19 @@ img {
         "m-04 f-03 f-04";
     }
 
+}
+
+/* Responsive styling for small screens */
+
+@media screen and (max-width: 320px) {
+    #restart-btn, #story, .choice, .menu-item, .menu-list, #logo-bar {
+        padding: 2.5% 8%;
+        top: 50px;
+        font-size: 14px;
+    }
+    .menu-item, .menu-item * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
 }
