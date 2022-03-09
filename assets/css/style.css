@@ -42,17 +42,17 @@ li {
     justify-content: space-between;
     align-items: flex-end;
     position: fixed;
-    left: 0;
+    left: 200%;
     top: 70px;
     gap: 0;
     flex-direction: column;
     opacity: 0;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
 }
 
 .menu-list.active {
+    left: 0;
     opacity: 100%;
 }
 
