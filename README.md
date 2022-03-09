@@ -18,6 +18,7 @@
     1. [Colours](#colours)
     2. [Typography](#typography)
     3. [Imagery](#icons-and-images)
+    4. [Future Development](#future-development)
 5. [Testing](#testing)
     1. [HTML Validator](#html-validator)
     2. [Jigsaw CSS Validator](#jigsaw-css-validator)
@@ -92,6 +93,13 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 ## Icons and images
 - The source for the arrow in the dropdown menu is [Font Awesome](https://fontawesome.com/).  The arrow is used to delineate between menu items and the instructions that display when menu items are clicked.
 - When looking at the [background image](https://www.artbreeder.com/i?k=98efc5ffe0b7a2bad327cfea50bf) as a whole, one sees a landscape.  However, inspecting particular details shows artistic elements of chaos that evoke the central experience conveyed in the story.  
+
+## Future Development
+- A future version of the site could include planned visual elements that were cut due to time constraints, such as portraits that age when the story time-skips and backgrounds that change as the story develops.  The aging portraits would be suitable for the sole implemented story, while most of the backgrounds would be more suited to the proposed additional stories which are currently only wireframed.  See the images below for a range of this proposed content.  
+
+![Portraits that age with the story.](/assets/image-readme/portraits-start-and-old.jpg)
+
+![Backgrounds that change with the story.](/assets/image-readme/backgrounds.jpg)
 
 # Testing
 ## [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Festelindis.github.io%2Fstorycraft%2F)
