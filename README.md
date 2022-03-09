@@ -62,7 +62,7 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 ![Initial mock-up of the mobile site.](/assets/image-readme/wireframe-mobile.jpg)
 
 ## Desktop
-- The desktop version of the site has a larger area for story content.  However, keeping the amount of story content the same as what was established in the mobile wireframe, it becomes clear that allowing the gameplay area to stretch to almost full desktop width offers no additional utility.  By limiting the width of the gameplay area on larger screens, some aesthetic utility is gained as more of the background image is allowed to appear.
+- The desktop version of the site has a larger area for story content.  However, with the amount of story content remaining the same, it becomes clear that allowing the gameplay area to stretch to almost full desktop width offers no additional utility.  By limiting the width of the gameplay area on larger screens, some aesthetic utility is gained as more of the background image is allowed to appear.
 
 ![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-desk.jpg)
 
@@ -134,13 +134,13 @@ This copy of the code can be edited without affecting the original code.
 To make a local clone of the project, follow these steps:
 
 1. Log into your GitHub account.
-2. Navigate to the [Repository](https://github.com/Estelindis/aikido).
+2. Navigate to the [Repository](https://github.com/Estelindis/storycraft).
 3. In the upper section of the repository, click the dropdown named "Code".
 4. Copy the SHH address.
 5. Open GitBash.
 6. Navigate to the correct directory.
-7. Create a new directory named "aikido".
-8. CD into "aikido".
+7. Create a new directory named "storycraft".
+8. CD into "storycraft".
 9. Enter "git clone SSH_ADDRESS".
 10. GitBash will clone the repository into this directory.
 11. Enter "code ." which will open VS CODE.
