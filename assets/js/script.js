@@ -307,7 +307,7 @@ const storyNodes = [{
     },
     {
         id: 21,
-        story: 'Awake, I can\'t shut out the song.  But all senses vanish in slumber.  I do whatever I can to stay asleep.  No measure is too drastic.  \r\n My health declines.  The odd times I awake, I can see how frail I\'ve become.  Yet somehow, as little as I eat and drink, it seems to be enough.',
+        story: 'Awake, I can\'t shut out the song.  But all senses vanish in slumber.  I do whatever I can to stay asleep.  No measure is too drastic.  \r\n My health declines.  The odd times I wake up, I can see how frail I\'ve become.  Yet somehow, as little as I eat and drink, it seems to be enough.',
         choices: [{
                 choiceText: 'I try returning to normal.',
                 nextStoryNode: 22
@@ -410,7 +410,7 @@ const storyNodes = [{
         id: 30,
         story: 'Slowly, my senses return.  I open my eyes.  I\'m in hospital.  \r\n Beside me, holding my hand, is the one I know better than anyone else.  A few years older, yet time could never make a stranger of this most precious person.  The singer of the song.  \r\n Tears run down the singer\'s face.  Arms open to embrace me.  The song pauses.  But life begins.',
         choices: [{
-            choiceText: 'The end.  Take another path?',
+            choiceText: 'A new beginning.  Take another path?',
             nextStoryNode: 1
         }]
     }
