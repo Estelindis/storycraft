@@ -421,14 +421,14 @@ const storyNodes = [{
 window.addEventListener("keydown", keyboardShortcut);
 
 function keyboardShortcut(key) {
-	let choiceKeyboard;
+    let choiceKeyboard;
     let choiceQuantity = document.getElementById("choice-box").childNodes.length;
     if (key.key == 1) {
-		choiceKeyboard = document.getElementById('choice-box').childNodes[0];
+        choiceKeyboard = document.getElementById('choice-box').childNodes[0];
     } else if ((key.key == 2) && (choiceQuantity === 2 || choiceQuantity === 3)) {
-		choiceKeyboard = document.getElementById('choice-box').childNodes[1];
+        choiceKeyboard = document.getElementById('choice-box').childNodes[1];
     } else if ((key.key == 3) && (choiceQuantity === 3)) {
-		choiceKeyboard = document.getElementById('choice-box').childNodes[2];
+        choiceKeyboard = document.getElementById('choice-box').childNodes[2];
     }
     let storyKeyboard = parseInt(choiceKeyboard.getAttribute("data-next-story"));
     if (storyKeyboard > 0) {
