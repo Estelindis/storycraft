@@ -9,7 +9,7 @@
     1. [User Goals](#user-goals)
     2. [Owner Goals](#owner-goals)
 2. [Website structure](#website-structure)
-    1. [Landing Page](#landing-page-and-story-content)
+    1. [Landing Page and Story Content](#landing-page-and-story-content)
 3. [Wireframes](#wireframes)
     1. [Mobile](#mobile)
     2. [Desktop](#desktop)
@@ -56,44 +56,35 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 ![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-story.jpg)
 
 
-
-
 ## Features
 
 -   Responsive on all device sizes
 
 -   Interactive elements
 
-## Technologies Used
-
-### Languages Used
-
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
-### Frameworks, Libraries & Programs Used
-
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
 
 # Testing
-## [HTML Validator](https://validator.w3.org/)
+## [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Festelindis.github.io%2Fstorycraft%2F)
 No errors were returned when passing through the official W3C validator. 
 
-## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+![HTML results.](/assets/image-readme/html-checker.jpg)
+
+## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Festelindis.github.io%2Fstorycraft%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)
 No errors were returned when passing through the official Jigsaw validator. 
 
+![HTML results.](/assets/image-readme/css-validator.jpg)
+
 ## [JS Hint](https://jshint.com/)
-No errors were returned when passing through JS Hint. 
+Only metrics were returned when passing through JS Hint. 
+
 ![JSHint results.](/assets/image-readme/js-hint.jpg)
+
+## [Lighthouse Accessibility (DevTools)](https://developers.google.com/web/tools/lighthouse/)
+Running the site through Lighthouse in Chrome DevTools, checking both mobile and desktop versions, resulted in the following reports:
+
+![Mobile Lighthouse report.](/assets/image-readme/lighthouse-mobile.jpg)
+![Desktop Lighthouse report.](/assets/image-readme/lighthouse-desktop.jpg)
+
 
 ### Further Testing
 
@@ -142,8 +133,6 @@ To make a local clone of the project, follow these steps:
 9. Enter "git clone SSH_ADDRESS".
 10. GitBash will clone the repository into this directory.
 11. Enter "code ." which will open VS CODE.
-
-## Credits
 
 # Used technologies and credits
 ## Languages
