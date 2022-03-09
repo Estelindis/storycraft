@@ -44,7 +44,7 @@ StoryCraft is designed to be a shortform narrative game in which the user can ma
 - Provide a clear user interface that does not obstruct the story experience.
 
 # Website structure
-The website is presented as a single page, the content of which changes as the user advances through the story.  As all content should be displayed on a single screen at all times, without the need to scroll, a navbar proper is not needed.  However, a hamburger menu is provided to clarify how to play the game and what controls can be used, in case such information is not apparent to the user.
+The website is presented as a single page, the content of which changes as the user advances through the story.  As all content should be displayed on a single screen at all times, without the need to scroll, a navbar proper is not needed.  However, a hamburger icon with dropdown menu is provided to clarify how to play the game and what controls can be used, in case such information is not apparent to the user.
 
 ## Landing Page and Story Content
 - The user may find it jarring to be immediately confronted with story content and choices, without any explanation of what the site is and what users can do there.  As such, on loading the site, the user immediately encounters a brief description of the site and is invited to begin a story by pressing the Start button.  The user will not see this invitation again unless they reload the page.  
@@ -153,7 +153,7 @@ To make a local clone of the project, follow these steps:
 
 ## Content
 - Code to show and move between story nodes is adapted from a [tutorial by YouTube user Web Dev Simplified](https://www.youtube.com/watch?v=R1S_NhKkvGA).
-- The hamburger menu is adapted from a [tutorial by YouTube user codefoxx](https://www.youtube.com/watch?v=flItyHiDm7E).
+- The hamburger icon and dropdown menu are adapted from a [tutorial by YouTube user codefoxx](https://www.youtube.com/watch?v=flItyHiDm7E).
 - The [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) browser extension was used to quickly and clearly identify which styling elements were causing overflow.
 - Narrative wireframing was done in [Flamewind Conversation Editor 2.0](https://neverwintervault.org/project/nwnee/other/tool/flamewind-conversation-editor-20).  However, due to encountering some bugs in Flamewind, story development moved to the [Bioware Aurora Toolset](https://en.wikipedia.org/wiki/BioWare#Aurora_Engine) when writing the full version of the story.
 
