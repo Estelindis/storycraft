@@ -281,7 +281,7 @@ const storyNodes = [{
     },
     {
         id: 19,
-        story: 'Having truly heard the voice, it\'s not easy to stop.  No matter what I do, the song seems to worm its way into every moment.  The strange sights become constant too.  Always, at the edge of my vision, there\'s movement that vanishes when I look.  I may be losing my mind. \r\n Above all, I cannot escape the emotion I hear in the song.  Sometimes fondness.  Sometimes sorrow.  But always love.  Can I face it?',
+        story: 'Having truly heard the voice, it\'s not easy to stop.  No matter what I do, the song seems to worm its way into every moment.  The strange sights become constant too.  Always, at the edge of my vision, there\'s movement that vanishes when I look.  I\'m not sure I\'d want to see the things that elude me, even if I could.  Above all, I cannot escape the emotion I hear in the song.  Sometimes fondness.  Sometimes sorrow.  But always love.  Can I face it?',
         choices: [{
                 choiceText: 'I try to sleep as much as possible.',
                 nextStoryNode: 21
