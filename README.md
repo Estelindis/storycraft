@@ -14,6 +14,22 @@
     1. [Mobile](#mobile)
     2. [Desktop](#desktop)
 	3. [Narrative](#narrative)
+4. [Testing](#testing)
+    1. [HTML Validator](#html-validator)
+    2. [Jigsaw CSS Validator](#jigsaw-css-validator)
+    3. [JS Hint](#js-hint)
+    4. [Lighthouse Accessibility (DevTools)](#lighthouse-accessibility-devtools)
+5. [Bugs and fixes](#bugs-and-fixes)
+6. [Deployment](#deployment)
+    1. [GitHub Pages](#github-pages)
+    2. [Forking Repository](#forking-the-github-repository)
+    3. [Cloning the project](#cloning-the-project)
+7. [Used technologies and credits](#used-technologies-and-credits)
+    1. [Languages](#languages)
+    2. [Content](#content)
+    3. [Media](#media)
+    4. [Other technologies](#other-technologies)
+    5. [Credits](#credits)
 
 # About the project
 StoryCraft is designed to be a shortform narrative game in which the user can make meaningful choices. 
@@ -55,14 +71,6 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 
 ![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-story.jpg)
 
-
-## Features
-
--   Responsive on all device sizes
-
--   Interactive elements
-
-
 # Testing
 ## [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Festelindis.github.io%2Fstorycraft%2F)
 No errors were returned when passing through the official W3C validator. 
@@ -80,11 +88,10 @@ Only metrics were returned when passing through JS Hint.
 ![JSHint results.](/assets/image-readme/js-hint.jpg)
 
 ## [Lighthouse Accessibility (DevTools)](https://developers.google.com/web/tools/lighthouse/)
-Running the site through Lighthouse in Chrome DevTools, checking both mobile and desktop versions, resulted in the following reports:
+Running the site through Lighthouse, checking both mobile and desktop versions, resulted in the following reports:
 
 ![Mobile Lighthouse report.](/assets/image-readme/lighthouse-mobile.jpg)
 ![Desktop Lighthouse report.](/assets/image-readme/lighthouse-desktop.jpg)
-
 
 ### Further Testing
 
