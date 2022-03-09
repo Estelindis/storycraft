@@ -31,7 +31,7 @@ div,
     font-size: 22px;
 }
 
-/* Pop-out menu, adapted from a tutorial by YouTube user codefoxx, link in readme */
+/* Pop-out menu, adapted from a tutorial by YouTube user codefoxx: https://www.youtube.com/watch?v=flItyHiDm7E */
 
 li {
     list-style: none;
@@ -108,7 +108,7 @@ li {
     opacity: 100%;
 }
 
-/* Hamburger graphic and transition animation, from a tutorial by YouTube user codefoxx, link in readme */
+/* Hamburger graphic and transition animation, again from YouTube user codefoxx */
 
 .hamburger {
     display: block;

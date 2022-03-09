@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-/* Story functions are adapted from a tutorial by YouTube user Web Dev Simplified, link in readme */
+/* Story functions are adapted from a tutorial by YouTube user Web Dev Simplified: https://www.youtube.com/watch?v=R1S_NhKkvGA */
 
 let storyElement = document.getElementById('story');
 let choiceElements = document.getElementById('choice-box');
@@ -436,7 +436,7 @@ function keyboardShortcut(key) {
     }
 }
 
-/* Hamburger toggle, adapted from a tutorial by YouTube user codefoxx, link in readme */
+/* Hamburger toggle, adapted from a tutorial by YouTube user codefoxx: https://www.youtube.com/watch?v=flItyHiDm7E */
 
 const hamburger = document.querySelector(".hamburger");
 const menuList = document.querySelector(".menu-list");
@@ -446,7 +446,7 @@ hamburger.addEventListener("click", () => {
     menuList.classList.toggle("active");
 });
 
-/* Dropdown menu items elaborate on click, adapted from a tutorial by YouTube user codefoxx, link in readme */
+/* Dropdown menu items elaborate on click, again adapted from YouTube user codefoxx */
 
 const menuItem1 = document.querySelector(".menu-1");
 const explanation1 = document.querySelector(".expl-1");
