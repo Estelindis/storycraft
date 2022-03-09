@@ -155,7 +155,7 @@ h3 {
 }
 
 #game-box {
-    height: 90vh;
+    height: 80vh;
     width: 800px;
     max-width: 80%;
     position: fixed;
@@ -192,7 +192,7 @@ h3 {
     width: 100%;
     background-color: #3d3d3d;
     padding: 20px;
-    font-size: 1.2rem;
+    font-size: 24px;
     text-align: center;
     cursor: pointer;
 }
@@ -326,8 +326,8 @@ img {
     .menu-item,
     .menu-list,
     #logo-bar {
-        padding: 2% 3%;
-        top: 50px;
+        padding: 1.5% 3%;
+        top: 30px;
         font-size: 14px;
     }
 }
