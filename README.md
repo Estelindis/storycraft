@@ -51,7 +51,7 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 ![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-desk.jpg)
 
 ## Narrative
-- As well as the usual wireframing, the particulars of a narrative game called for "wireframing" the story.  This was done in several stages, with the first narrative wireframe including barebones versions of three stories and the beginning of a proposed fourth story.  However, due to time limitations, only one story was ultimately written in full and implemented in the live site.  Narrative wireframing took place in Flamewind Conversation Editor 2.0, a standalone version of the conversation editor from Bioware's Aurora Toolset.
+- As well as the usual wireframing, the particulars of a narrative game called for "wireframing" the story.  This was done in several stages, with the first narrative wireframe including barebones versions of three stories and the beginning of a proposed fourth story.  However, due to time limitations, only one story was ultimately written in full and implemented in the live site (this is represented in yellow in the narrative wireframe image).  Narrative wireframing took place in Flamewind Conversation Editor 2.0, a standalone version of the conversation editor from Bioware's Aurora Toolset.
 
 ![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-story.jpg)
 
@@ -84,73 +84,64 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
 
-## Testing
+# Testing
+## [HTML Validator](https://validator.w3.org/)
+No errors were returned when passing through the official W3C validator. 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+No errors were returned when passing through the official Jigsaw validator. 
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+## [JS Hint](https://jshint.com/)
+No errors were returned when passing through JS Hint. 
+![JSHint results.](/assets/image-readme/js-hint.jpg)
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Testing placeholder text.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   Bug placeholder text.
 
 ## Deployment
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The steps to deploy via GitHub pages:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Estelindis/storycraft).
+2. Click the "Settings" option at the top of the repository.
+3. Click the "Pages" option on the left-hand menu, located near the bottom.
+4. Within the "Source" tab Select the drop-down titled "None".
+5. Select the branch named "main" (it is sometimes named "Master").
+6. Click "Save".
+7. You will be prompted with a URL to your site, which is now deployed.
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+By forking the GitHub repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.  Follow these steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Estelindis/storycraft) that you want to fork.
+2. In the upper right of the repository, click the "Fork" button.
+3. A copy of the repository will now be available within your repositories.
 
-### Making a Local Clone
+This copy of the code can be edited without affecting the original code.
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
+## Cloning the Project.
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
+To make a local clone of the project, follow these steps:
 
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+1. Log into your GitHub account.
+2. Navigate to the [Repository](https://github.com/Estelindis/aikido).
+3. In the upper section of the repository, click the dropdown named "Code".
+4. Copy the SHH address.
+5. Open GitBash.
+6. Navigate to the correct directory.
+7. Create a new directory named "aikido".
+8. CD into "aikido".
+9. Enter "git clone SSH_ADDRESS".
+10. GitBash will clone the repository into this directory.
+11. Enter "code ." which will open VS CODE.
 
 ## Credits
 
