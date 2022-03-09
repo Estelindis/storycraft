@@ -274,7 +274,7 @@ h3 {
     #story,
     .choice,
     .menu-item,
-    .menu-list{
+    .menu-list {
         padding: 1% 5%;
         top: 50px;
         font-size: 20px;
@@ -283,7 +283,7 @@ h3 {
     #logo-bar {
         padding: 3% 5% 1%;
         min-height: 50px;
-        }
+    }
 }
 
 /* Landscape styling for small screens */
@@ -302,7 +302,7 @@ h3 {
 
     #logo-bar {
         min-height: 50px;
-        }
+    }
 }
 
 @media only screen and (orientation: landscape) and (max-height: 480px) {
@@ -363,7 +363,7 @@ h3 {
     }
 
     #logo-bar {
-    min-height: 50px;
+        min-height: 50px;
     }
 
     #logo-head {
