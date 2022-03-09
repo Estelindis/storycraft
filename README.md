@@ -71,6 +71,10 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 
 ![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-story.jpg)
 
+- The single story implemented in the live site was elaborated from the wireframe in the conversation editor of Bioware's Aurora Toolset, a tool designed to easily create and track narrative content.  Giving each story node a number in the Aurora Toolset allowed the content to be transferred easily to the storyNodes variable in script.js, with each story number in the toolset tracking directly to a story id in the variable.  In the image below, story nodes are shown in red, choices in blue, and links in grey.  In this image, each choice has an associated character, so that readers of this readme can understand where the links lead.  These characters were not used in script.js and exist solely for documentation purposes.  
+
+![Initial mock-up of the desktop site.](/assets/image-readme/aurora-cropped.jpg)
+
 # Testing
 ## [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Festelindis.github.io%2Fstorycraft%2F)
 No errors were returned when passing through the official W3C validator. 
