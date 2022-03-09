@@ -23,6 +23,14 @@ div,
     color: #d0d0d0;
 }
 
+#story,
+.choice,
+.menu-item,
+.menu-list,
+#logo-bar {
+    font-size: 22px;
+}
+
 /* Pop-out menu, adapted from a tutorial by YouTube user codefoxx, link in readme */
 
 li {
@@ -231,6 +239,31 @@ img {
 
 }
 
+/* Decrease font size to fit text on medium screens */
+
+@media screen and (max-width: 700px) {
+
+    #story,
+    .choice,
+    .menu-item,
+    .menu-list,
+    #logo-bar {
+        font-size: 18px;
+    }
+}
+
+/* Decrease font size again to fit text on smaller screens */
+
+@media screen and (max-width: 600px) {
+
+    #story,
+    .choice,
+    .menu-item,
+    .menu-list,
+    #logo-bar {
+        font-size: 16px;
+    }
+}
 
 /* Responsive styling for small screens */
 
@@ -273,6 +306,7 @@ img {
 /* Landscape styling for small screens */
 
 @media only screen and (orientation: landscape) and (max-height: 550px) {
+
     #restart-btn,
     #story,
     .choice,
@@ -285,6 +319,7 @@ img {
 }
 
 @media only screen and (orientation: landscape) and (max-height: 480px) {
+
     #restart-btn,
     #story,
     .choice,
@@ -298,6 +333,7 @@ img {
 }
 
 @media only screen and (orientation: landscape) and (max-height: 390px) {
+
     #restart-btn,
     #story,
     .choice,
@@ -311,6 +347,7 @@ img {
 }
 
 @media only screen and (orientation: landscape) and (max-height: 350px) {
+
     #restart-btn,
     #story,
     .choice,
@@ -324,6 +361,7 @@ img {
 }
 
 @media only screen and (orientation: landscape) and (max-height: 299px) {
+
     #restart-btn,
     #story,
     .choice,
