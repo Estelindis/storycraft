@@ -91,7 +91,7 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 
 ## Icons and images
 - The source for the arrow in the dropdown menu is [Font Awesome](https://fontawesome.com/).  The arrow is used to delineate between menu items and the instructions that display when menu items are clicked.
-- When looking at the background image [background image](https://www.artbreeder.com/i?k=98efc5ffe0b7a2bad327cfea50bf) as a whole, one sees a landscape.  However, inspecting particular details shows artistic elements of chaos that evoke the central experience conveyed in the story.  
+- When looking at the [background image](https://www.artbreeder.com/i?k=98efc5ffe0b7a2bad327cfea50bf) as a whole, one sees a landscape.  However, inspecting particular details shows artistic elements of chaos that evoke the central experience conveyed in the story.  
 
 # Testing
 ## [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Festelindis.github.io%2Fstorycraft%2F)
