@@ -239,7 +239,7 @@ const storyNodes = [{
     },
     {
         id: 15,
-        story: 'Slowly, my senses return.  I open my eyes.  I\'m in hospital.  On my bedside table is a ring.  I know with sudden clarity who it belongs to.  \r\n The nurse in front of me is singing the song, in a low voice.  When she turns and sees me awake, she screams.  \r\n I cover my face with my aged, wrinked hands.  And I weep.',
+        story: 'Slowly, my senses return.  I open my eyes.  I\'m in hospital.  On my bedside table is a ring.  I know with sudden clarity to whom it belonged.  \r\n The nurse in front of me is singing the song, in a low voice.  When she turns and sees me awake, she screams.  \r\n I cover my face with my aged, wrinked hands.  And I weep.',
         choices: [{
             choiceText: 'The end.  Begin again?',
             nextStoryNode: 1
