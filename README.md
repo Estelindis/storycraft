@@ -14,17 +14,22 @@
     1. [Mobile](#mobile)
     2. [Desktop](#desktop)
 	3. [Narrative](#narrative)
-4. [Testing](#testing)
+4. [Design](#design)
+    1. [Colours](#colours)
+    2. [Typography](#typography)
+    3. [Imagery](#icons-and-images)
+5. [Testing](#testing)
     1. [HTML Validator](#html-validator)
     2. [Jigsaw CSS Validator](#jigsaw-css-validator)
     3. [JS Hint](#js-hint)
     4. [Lighthouse Accessibility (DevTools)](#lighthouse-accessibility-devtools)
-5. [Bugs and fixes](#bugs-and-fixes)
-6. [Deployment](#deployment)
+    5. [Manual testing](#manual-testing)
+6. [Bugs and fixes](#bugs-and-fixes)
+7. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
     2. [Forking Repository](#forking-the-github-repository)
     3. [Cloning the project](#cloning-the-project)
-7. [Used technologies and credits](#used-technologies-and-credits)
+8. [Used technologies and credits](#used-technologies-and-credits)
     1. [Languages](#languages)
     2. [Content](#content)
     3. [Media](#media)
@@ -75,6 +80,19 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 
 ![Initial mock-up of the desktop site.](/assets/image-readme/aurora-cropped.jpg)
 
+# Design
+## Colours
+- A minimalist colour scheme of dark grey backgrounds and very light grey text was chosen for the website.  These colours offer a level of contrast that ensures readability.  
+- In the website as initially imagined, the background image (and user portrait, a feature not ultimately implemented) would change based on choices made by the user.  The changing images would use a wide range of different colours, but the main gameplay area would stay dark grey, a neutral colour that would not clash with the other elements.
+
+## Typography
+- [Fondamento](https://fonts.google.com/specimen/Fondamento): this clear, clean calligraphic font is used to make the site logo in the upper left corner stand out.
+- [Dosis](https://fonts.google.com/specimen/Dosis): this rounded sans-serif font, chosen for readability, is used in all content apart from the site logo.
+
+## Icons and images
+- The source for the arrow in the dropdown menu is [Font Awesome](https://fontawesome.com/).  The arrow is used to delineate between menu items and the instructions that display when menu items are clicked.
+- When looking at the background image [background image](https://www.artbreeder.com/i?k=98efc5ffe0b7a2bad327cfea50bf) as a whole, one sees a landscape.  However, inspecting particular details shows artistic elements of chaos that evoke the central experience conveyed in the story.  
+
 # Testing
 ## [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Festelindis.github.io%2Fstorycraft%2F)
 No errors were returned when passing through the official W3C validator. 
@@ -97,13 +115,13 @@ Running the site through Lighthouse, checking both mobile and desktop versions, 
 ![Mobile Lighthouse report.](/assets/image-readme/lighthouse-mobile.jpg)
 ![Desktop Lighthouse report.](/assets/image-readme/lighthouse-desktop.jpg)
 
-### Further Testing
+## Manual testing
+- I tested that the site works in different browsers: Edge, Chrome, Firefox.
+- Via Chrome DevTools, I tested the responsiveness of the site across a range of screen sizes, from phone to tablet to desktop. 
 
--   Testing placeholder text.
-
-### Known Bugs
-
--   Bug placeholder text.
+# Bugs and fixes
+## Solved bugs
+- The dropdown menu caused persistent issues, preventing choices from being selected even when it was not dropped down.  This bug was caused by a misunderstood adaptation of the tutorial followed to create this content.  Once it was understood that the inactive menu needed to be both opaque and moved to the side of the page, this bug was fixed.
 
 ## Deployment
 
