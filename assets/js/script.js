@@ -421,7 +421,6 @@ const storyNodes = [{
 window.addEventListener("keydown", keyboardShortcut);
 
 function keyboardShortcut(key) {
-    console.log(key.key);
 	let choiceKeyboard;
     let choiceQuantity = document.getElementById("choice-box").childNodes.length;
     if (key.key == 1) {
@@ -432,7 +431,6 @@ function keyboardShortcut(key) {
 		choiceKeyboard = document.getElementById('choice-box').childNodes[2];
     }
     let storyKeyboard = parseInt(choiceKeyboard.getAttribute("data-next-story"));
-    console.log(storyKeyboard);
     if (storyKeyboard > 0) {
         showStoryNode(storyKeyboard);
     }
