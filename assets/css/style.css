@@ -18,7 +18,7 @@ p, span, div, #restart-btn {
     color: #d0d0d0;
 }
 
-/* Pop-out menu */
+/* Pop-out menu, adapted from a tutorial by YouTube user codefoxx, link in readme */
 
 li {
     list-style: none;
@@ -88,7 +88,7 @@ li {
     opacity: 100%;
 }
 
-/* Hamburger graphic and transition animation */
+/* Hamburger graphic and transition animation, from a tutorial by YouTube user codefoxx, link in readme */
 
 .hamburger {
     display: block;
