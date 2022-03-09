@@ -130,6 +130,7 @@ Running the site through Lighthouse, checking both mobile and desktop versions, 
 # Bugs and fixes
 ## Solved bugs
 - The dropdown menu caused persistent issues, preventing choices from being selected even when it was not dropped down.  This bug was caused by a misunderstood adaptation of the tutorial followed to create this content.  Once it was understood that the inactive menu needed to be both opaque and moved to the side of the page, this bug was fixed.
+- The site was not developed with landscape phone view in mind, but rather a portrait view.  User reports indicted that it did not work in landscape mode.  Additional media queries were added to address this issue.
 
 ## Deployment
 

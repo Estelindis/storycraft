@@ -322,3 +322,16 @@ img {
         font-size: 13px;
     }
 }
+
+@media only screen and (orientation: landscape) and (max-height: 299px) {
+    #restart-btn,
+    #story,
+    .choice,
+    .menu-item,
+    .menu-list,
+    #logo-bar {
+        padding: 0.7% 3%;
+        top: 0;
+        font-size: 12px;
+    }
+}
