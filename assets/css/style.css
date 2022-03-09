@@ -4,7 +4,9 @@
 
 /* Global style */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     border: 0;
@@ -12,7 +14,10 @@
     text-align: justify;
 }
 
-p, span, div, #restart-btn {
+p,
+span,
+div,
+#restart-btn {
     font-family: 'Dosis', sans-serif;
     background-color: #222222;
     color: #d0d0d0;
@@ -60,7 +65,9 @@ li {
     margin: 16px 24px;
 }
 
-.fas, .menu-list, .menu-list * {
+.fas,
+.menu-list,
+.menu-list * {
     background-color: #3d3d3d;
 }
 
@@ -68,23 +75,28 @@ li {
     text-align: right;
 }
 
-.menu-1, .menu-2 {
+.menu-1,
+.menu-2 {
     cursor: pointer;
 }
 
-.menu-1:hover, .menu-2:hover {
+.menu-1:hover,
+.menu-2:hover {
     font-weight: bold;
 }
 
-.menu-1.active, .menu-2.active {
+.menu-1.active,
+.menu-2.active {
     font-weight: bold;
 }
 
-.expl-1, .expl-2 {
+.expl-1,
+.expl-2 {
     opacity: 0;
 }
 
-.expl-1.active, .expl-2.active {
+.expl-1.active,
+.expl-2.active {
     opacity: 100%;
 }
 
@@ -105,15 +117,15 @@ li {
     background-color: #d0d0d0;
 }
 
-.hamburger.active .bar:nth-child(2){
+.hamburger.active .bar:nth-child(2) {
     opacity: 0;
 }
 
-.hamburger.active .bar:nth-child(1){
+.hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
 }
 
-.hamburger.active .bar:nth-child(3){
+.hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
 
@@ -123,11 +135,13 @@ li {
     background: url('../images/bk01-grassland-city.webp') no-repeat center center;
     background-size: cover;
     height: 100vh;
-  }
+}
 
 /* Central interactive area  */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Fondamento', 'Goudy Old Style', serif;
     text-align: left;
 }
@@ -142,7 +156,8 @@ h1, h2, h3 {
     transform: translate(-50%, -50%);
 }
 
-#story, .choice {
+#story,
+.choice {
     padding: 20px 24px;
 }
 
@@ -199,7 +214,7 @@ h1, h2, h3 {
 img {
     max-width: 100%;
     height: auto;
-  }
+}
 
 /* Responsive styling for portraits  */
 
@@ -208,10 +223,10 @@ img {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas:
-        "f-01 f-02 m-05"
-        "m-06 f-05 f-06" 
-        "m-01 m-02 m-03"
-        "m-04 f-03 f-04";
+            "f-01 f-02 m-05"
+            "m-06 f-05 f-06"
+            "m-01 m-02 m-03"
+            "m-04 f-03 f-04";
     }
 
 }
@@ -220,10 +235,18 @@ img {
 /* Responsive styling for small screens */
 
 @media screen and (max-width: 400px) {
-    #restart-btn, #story, .choice, .menu-item, .menu-list, #logo-bar {
+
+    #restart-btn,
+    #story,
+    .choice,
+    .menu-item,
+    .menu-list,
+    #logo-bar {
         padding: 3% 8%;
     }
-    .menu-item, .menu-item * {
+
+    .menu-item,
+    .menu-item * {
         margin: 0;
         padding: 0;
         border: 0;
@@ -234,9 +257,43 @@ img {
 /* Responsive styling for smallest screens */
 
 @media screen and (max-width: 320px) {
-    #restart-btn, #story, .choice, .menu-item, .menu-list, #logo-bar {
+
+    #restart-btn,
+    #story,
+    .choice,
+    .menu-item,
+    .menu-list,
+    #logo-bar {
         padding: 2.5% 8%;
         top: 50px;
         font-size: 14px;
+    }
+}
+
+/* Landscape styling for small screens */
+
+@media only screen and (orientation: landscape) and (max-height: 500px) {
+    #restart-btn,
+    #story,
+    .choice,
+    .menu-item,
+    .menu-list,
+    #logo-bar {
+        padding: 2%;
+        top: 50px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 350px) {
+    #restart-btn,
+    #story,
+    .choice,
+    .menu-item,
+    .menu-list,
+    #logo-bar {
+        padding: 1% 2%;
+        top: 50px;
+        font-size: 13px;
     }
 }
