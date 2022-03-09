@@ -95,7 +95,7 @@ The site was prototyped in GIMP using the initially chosen colour palette and ba
 - When looking at the [background image](https://www.artbreeder.com/i?k=98efc5ffe0b7a2bad327cfea50bf) as a whole, one sees a landscape.  However, inspecting particular details shows artistic elements of chaos that evoke the central experience conveyed in the story.  
 
 ## Future Development
-- A future version of the site could include planned visual elements that were cut due to time constraints, such as portraits that age when the story time-skips and backgrounds that change as the story develops.  The aging portraits would be suitable for the sole implemented story, while most of the backgrounds would be more suited to the proposed additional stories which are currently only wireframed.  See the images below for a range of this proposed content.  
+- In addition to wireframed stories that were not completed, a future version of the site could include planned visual elements that were cut due to time constraints.  Examples of cut content include portraits that age when the story time-skips and backgrounds that change as the story develops.  The aging portraits would be suitable for the sole implemented story, while most of the backgrounds would be more suited to the proposed additional stories which are currently only wireframed.  See the images below for a range of this proposed content.  
 
 ![Portraits that age with the story.](/assets/image-readme/portraits-start-and-old.jpg)
 
