@@ -372,4 +372,12 @@ img {
         top: 0;
         font-size: 12px;
     }
+
+    #logo-bar {
+    min-height: 50px;
+    }
+
+    #logo-head {
+        font-size: 1.5rem;
+    }
 }
